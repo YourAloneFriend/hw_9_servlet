@@ -26,7 +26,7 @@ public class Engine {
 
     public static Engine initialize(){
         if(engine == null)
-            return new Engine();
+            engine = new Engine();
         return engine;
     }
 }
